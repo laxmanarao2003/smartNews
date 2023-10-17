@@ -26,6 +26,7 @@ function ArticlesPage() {
         }
         catch(err){
             console.log('Something went wrong')
+            console.log(err);
             alert('Check your Internet connection and try again')
         }
     }
