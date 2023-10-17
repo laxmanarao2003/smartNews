@@ -5,7 +5,7 @@ function TeslaPage() {
     const [arr,setArr]=useState([])
     const [fetchData,setFetchData]=useState(0)
     
-    const teslaApi='https://newsapi.org/v2/everything?q=tesla&from=2023-09-16&sortBy=publishedAt&apiKey=96cdc7369fcb4135b3ee729e248e5b12'
+    const teslaApi='https://newsapi.org/v2/everything?q=tesla&from=2023-09-17&sortBy=publishedAt&apiKey=96cdc7369fcb4135b3ee729e248e5b12'
 
     useEffect(()=>{
         

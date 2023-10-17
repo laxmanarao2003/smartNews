@@ -4,7 +4,7 @@ import axios from 'axios'
 function ApplePage() {
     const [arr,setArr]=useState([])
     const [fetchData,setFetchData]=useState(0)
-    const appleApi='https://newsapi.org/v2/everything?q=apple&from=2023-10-12&to=2023-10-12&sortBy=popularity&apiKey=96cdc7369fcb4135b3ee729e248e5b12'
+    const appleApi='https://newsapi.org/v2/everything?q=apple&from=2023-10-16&to=2023-10-16&sortBy=popularity&apiKey=96cdc7369fcb4135b3ee729e248e5b12'
 
     useEffect(()=>{
         
